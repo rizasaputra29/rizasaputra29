@@ -13,20 +13,30 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
-      - name: generate pacman-contribution-graph.svg
-        uses: abozanona/pacman-contribution-graph@main
+      # 1. Setup Node.js so we can run the custom command
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
-          game_theme: "github-dark"
+          node-version: '20'
 
+      # 2. Install the tool and generate the file with Dark Theme
+      - name: Generate Pacman Graph (Dark Mode)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm install -g pacman-contribution-graph
+          pacman-contribution-graph --username ${{ github.repository_owner }} --platform github --gameTheme github-dark --output pacman-contribution-graph.svg
+
+      # 3. Move file to the dist folder (required for the next step)
       - name: Move to dist
         run: |
           mkdir -p dist
-          mv pacman-contribution-graph* dist/
+          mv pacman-contribution-graph.svg dist/
 
+      # 4. Push the result to the 'output' branch
       - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
