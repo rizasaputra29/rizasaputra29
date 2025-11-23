@@ -1,11 +1,14 @@
 <h2 align="center">Welcome to My GitHub</h2>
 
-<img align="right" width="500" height="300" src="https://i.pinimg.com/originals/7c/d0/c7/7cd0c7cef1ad93b2526a54ffdc7b0113.gif" alt="coding gif" />
+<div align="center" >
+
+<img width="500" height="300" src="https://i.pinimg.com/originals/7c/d0/c7/7cd0c7cef1ad93b2526a54ffdc7b0113.gif" alt="coding gif" />
 
 ### About Me
 
 Hi, I'm Muhammad Riza Saputra, an Undergraduate Computer Engineering Student with a passion for Full Stack Web Development. I'm currently focused on building modern web applications using cutting-edge technologies and best practices. I enjoy turning ideas into reality through clean, efficient code and creating seamless user experiences.
-<br clear="right"/>
+
+</div>
 
 ---
 
