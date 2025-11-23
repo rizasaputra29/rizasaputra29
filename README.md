@@ -52,25 +52,10 @@ Hi, I'm Muhammad Riza Saputra, an Undergraduate Computer Engineering Student wit
 
 ---
 
-### GitHub Statistics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rizasaputra29&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=true&order=1" height="170" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rizasaputra29&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=tokyonight&hide_border=true&order=2" height="170" alt="languages graph" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rizasaputra29&theme=tokyonight&hide_border=true" alt="streak stats" />
-</div>
-
----
-
 ### Contribution Graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rizasaputra29/rizasaputra29/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rizasaputra29/rizasaputra29/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/rizasaputra29/rizasaputra29/output/github-contribution-grid-snake.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/rizasaputra29/rizasaputra29/output/pacman-contribution-graph.svg" width="100%">
 </picture>
 
 ---
