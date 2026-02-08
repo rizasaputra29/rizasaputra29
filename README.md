@@ -12,7 +12,7 @@ Hi, I'm Muhammad Riza Saputra, an Undergraduate Computer Engineering Student wit
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="40" alt="javascript" />
